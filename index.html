@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login page</title>
+	<script type="text/javascript" src="rem.js"></script>
+	<style type="text/css">
+		#username,#pwd{
+			width: 100%;
+			height: .8rem;
+			line-height: .8rem;
+			border:none;
+			border-bottom: 1px solid black;
+			text-indent: 1.5rem;
+			font-size: .4rem;
+			
+			
+		}
+		#username{
+			/*background-color: red;*/
+			background:url(img/username.png),url(img/password.png);
+			background-repeat: no-repeat,no-repeat;
+			background-position: left center,right center;
+			background-size: .8rem,.9rem;
+			
+
+		}
+		#pwd{
+			background: url(img/password.png) no-repeat left center;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<input type="text" placeholder="请输入用户名" id="username">
+		<input type="password" placeholder="请输入密码" id="pwd">
+	</form>
+</body>
+</html>
